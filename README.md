@@ -11,5 +11,9 @@ The framework provides the completion of matrices with missing values. The entri
 Benchmark dataset is Protein dataset which is provided beside the code.
 
 # Training and Testing
+To run the algorithm with protein dataset:
 
+python nnmc_model_protein.py
+
+The user changable parameters of the framework are placed in nnmc_model_protein.py as exp_params and opt_params.
 
