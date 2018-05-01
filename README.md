@@ -5,7 +5,7 @@ This is a Tensorflow implementation of the paper "A Neural Net Framework for Acc
 Install tensorflow.
 
 # Model
-The framework provides the completion of matrices with missing values. The entries of samples are assumed to be real valued. The framework introduces seperate neural network models for each feature column.  Update is performed on each iteration by using exploiting models after all models are trained. 
+The framework provides the completion of matrices with missing values. The entries of samples are assumed to be real valued. The framework introduces seperate neural network models for each feature column.  Update is performed on each iteration by exploiting models right after all models are trained. 
 
 # Dataset
 Benchmark dataset is Protein dataset which is provided beside the code.
