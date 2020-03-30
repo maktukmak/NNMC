@@ -1,19 +1,8 @@
 # Neural-Network-Matrix-Completion
-This is a Tensorflow implementation of the paper "A Neural Net Framework for Accumulative Feature-based Matrix Completion". Please cite the paper in your publications if you find the source code useful to your research.
-
-# Installation
-Install tensorflow.
+This is Tensorflow implementation of the paper "A Neural Net Framework for Accumulative Feature-based Matrix Completion". Please cite the paper in your publication if you find the source code useful for your research.
 
 # Model
-The framework provides the completion of matrices with missing values. The entries of samples are assumed to be real valued. The framework introduces seperate neural network models for each feature column.  Update is performed on each iteration by exploiting models right after all models are trained. 
+The framework impute missing values of given matrix. The values are assumed to be real valued. The framework introduces seperate neural network for each feature column. Update is performed at each iteration by exploiting the model right after all networks are trained. 
 
 # Dataset
-Benchmark dataset is Protein dataset which is provided beside the code.
-
-# Training and Testing
-To run the algorithm with protein dataset:
-
-python nnmc_model_protein.py
-
-The user changable parameters of the framework are placed in nnmc_model_protein.py as exp_params and opt_params.
-
+Protein dataset is provided as an example usage.
